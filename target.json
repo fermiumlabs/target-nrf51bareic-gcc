@@ -1,11 +1,11 @@
 {
-  "name": "nrf51dk-gcc",
+  "name": "nrf51bareic-gcc",
   "version": "1.0.0",
   "inherits": {
     "nordic-nrf51822-gcc": "^1.0.0"
   },
   "description": "Unofficial mbed build target for custom boards by Fermium Labs",
-  "homepage": "https://github.com/ARMmbed/target-nrf51dk-gcc",
+  "homepage": "https://github.com/fermiumlabs/target-nrf51bareic-gcc",
   "repository": {
     "url": "git@github.com:fermiumlabs/target-nrf51bareic-gcc.git",
     "type": "git"
