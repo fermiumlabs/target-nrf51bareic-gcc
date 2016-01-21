@@ -4,10 +4,10 @@
   "inherits": {
     "nordic-nrf51822-gcc": "^1.0.0"
   },
-  "description": "Official mbed build target for the nRF51-DK 32KB platform.",
+  "description": "Unofficial mbed build target for custom boards by Fermium Labs",
   "homepage": "https://github.com/ARMmbed/target-nrf51dk-gcc",
   "repository": {
-    "url": "git@github.com:ARMmbed/target-nrf51dk-gcc.git",
+    "url": "git@github.com:fermiumlabs/target-nrf51bareic-gcc.git",
     "type": "git"
   },
   "licenses": [
@@ -17,8 +17,7 @@
     }
   ],
   "keywords": [
-    "mbed-official",
-    "mbed-target:nrf51_dk",
+    "mbed-unofficial",
     "gcc"
   ],
   "similarTo": [
@@ -26,14 +25,22 @@
   ],
   "config": {
     "nrf51822": {
-      "ram_size": "32K"
+      "ram_size": "16K"
     },
+  "nordic": {
+    "softdevice": "S110"
+  },
     "image": {
       "heap": {
         "warning_threshold": 1024
       }
     },
     "hardware": {
+      "clocks": {
+        "nrf": {
+          "lfclk_src": 0
+        }
+      },
       "pins": {
         "LED1": "p21",
         "LED2": "p22",
