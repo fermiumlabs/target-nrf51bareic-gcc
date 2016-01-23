@@ -1,4 +1,4 @@
-## Yotta target
+##Yotta target
 Yotta target description using GCC to compile for Nordic nRF51 16KB V3 IC
 Ideal for bareminimun boards / modules and custom circuits.
 
@@ -7,27 +7,13 @@ It uses the internal RC clock at boot, 16Kbyte of RAM, the S110 softdevice
 The project is forked from the nrf51dk-gcc target by Mbed.
 The pin names are the same.
 
-###installation
+###Installation
 
-To be sure that the target is correctly installed, modify your yotta.json file as follows:
-'''
-{
-  "build": {
-    "target": "nrf51bareic-gcc,fermiumlabs/target-nrf51bareic-gcc"
-  }
-}
-'''
+Just run "yotta target nrf51bareic-gcc,fermiumlabs/target-nrf51bareic-gcc"
+This target will be automatically downloaded, installed and activated
 
-To install the target run:
-'''
-yotta target nrf51bareic-gcc
-'''
-
-To update all your project dependencies including our target from the master branch run:
-'''
-yotta up
-'''
-
+###Releases
+You should use releases after V0.1.0
 
 ###Site:
 Please visit https://fermiumlabs.com to be kept update on our projects
