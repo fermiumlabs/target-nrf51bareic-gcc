@@ -9,7 +9,7 @@ The pin names are the same.
 
 ###Installation
 
-Just run '''yotta target nrf51bareic-gcc,fermiumlabs/target-nrf51bareic-gcc'''
+Just run '''    yotta target nrf51bareic-gcc,fermiumlabs/target-nrf51bareic-gcc     '''
 This target will be automatically downloaded, installed and activated
 
 ###Releases
