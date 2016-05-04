@@ -1,5 +1,5 @@
 {
-  "name": "nrf51bareic-gcc",
+  "name": "target-nrf51bareic-gcc",
   "version": "1.0.2",
   "inherits": {
     "nordic-nrf51822-gcc": "^1.0.0"
