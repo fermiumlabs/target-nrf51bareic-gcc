@@ -9,11 +9,11 @@ The pin names are the same.
 
 ###Installation
 
-Just run "yotta target nrf51bareic-gcc,fermiumlabs/target-nrf51bareic-gcc"
-This target will be automatically downloaded, installed and activated
+Just run the following command,the target will be automatically downloaded, installed and activated in your current project
 
-###Releases
-You should use releases after V0.1.0
+```bash
+yotta target fermiumlabs/target-nrf51bareic-gcc
+```
 
 ###Site:
 Please visit https://fermiumlabs.com to be kept update on our projects
